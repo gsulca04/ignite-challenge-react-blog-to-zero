@@ -25,3 +25,4 @@ Trata-se de uma aplicação que deve consumir os dados do Prismic.
 - TypeScript
 - Next.js
 - Prismic CMS
+- Utteranc
