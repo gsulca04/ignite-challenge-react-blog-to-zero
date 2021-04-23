@@ -14,6 +14,7 @@ import styles from './post.module.scss';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import Link from 'next/link';
+import Comments from '../../components/Comments';
 
 interface Post {
   first_publication_date: string | null;
@@ -98,6 +99,8 @@ export default function Post({ post, preview }: PostProps) {
             </article>
           ))}
         </div>
+
+        <Comments />
 
         {preview && (
           <aside>
